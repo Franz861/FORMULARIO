@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Animado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <h2>📋 Formulario de Registro</h2>
+
+        <form id="formulario">
+            <div class="grupo">
+                <input type="text" id="nombre" required>
+                <label>Nombre Completo</label>
+            </div>
+
+            <div class="grupo">
+                <input type="email" id="correo" required>
+                <label>Correo Electrónico</label>
+            </div>
+
+            <div class="grupo">
+                <input type="text" id="telefono" maxlength="9" required>
+                <label>Teléfono (9 dígitos)</label>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <p id="mensaje"></p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
